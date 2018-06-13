@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "grammar": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": "section"
+    },
+    "sentences": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": "lesson"
+    },
+    "verbs": {
+      ".read": true,
+      ".write": false
+    },
+    "bookmarks": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": "user"
+    }
+  }
+}
